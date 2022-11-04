@@ -1,0 +1,145 @@
+@keyframes buttonHoverInDiscord {
+    0% {
+        box-shadow: 0px 0px 15px black;
+        z-index: 3;
+        background-color: #e5dfaa;
+    }
+    100% {
+        box-shadow: 0px 10px 30px black;
+        transform: scale(1.15);
+        z-index: 4;
+        background-color: #c79096;
+    }
+}
+
+@keyframes buttonHoverOutDiscord {
+    0% {
+        box-shadow: 0px 10px 30px black;
+        transform: scale(1.15);
+        z-index: 4;
+        background-color: #c79096;
+    }
+    100% {
+        box-shadow: 0px 0px 15px black;
+        z-index: 3;
+        background-color: #e5dfaa;
+    }
+}
+
+@keyframes buttonHoverInPortfolio {
+    0% {
+        box-shadow: 0px 0px 15px black;
+        z-index: 3;
+        background-color: #e5dfaa;
+    }
+    100% {
+        box-shadow: 0px 10px 30px black;
+        transform: scale(1.15);
+        z-index: 4;
+        background-color: #90c7c5;
+    }
+}
+
+@keyframes buttonHoverOutPortfolio {
+    0% {
+        box-shadow: 0px 10px 30px black;
+        transform: scale(1.15);
+        z-index: 4;
+        background-color: #90c7c5;
+    }
+    100% {
+        box-shadow: 0px 0px 15px black;
+        z-index: 3;
+        background-color: #e5dfaa;
+    }
+}
+
+@keyframes iconHoverInInstagram {
+    0% {
+        color: #c51aaa;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes iconHoverOutInstagram {
+    0% {
+        color: white;
+    }
+    100% {
+        color: #c51aaa;
+    }
+}
+
+@keyframes iconHoverInDiscord {
+    0% {
+        color: #846bc5;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes iconHoverOutDiscord {
+    0% {
+        color: white;
+    }
+    100% {
+        color: #846bc5;
+    }
+}
+
+@keyframes iconHoverInReddit {
+    0% {
+        color: #c55c1a;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes iconHoverOutReddit {
+    0% {
+        color: white;
+    }
+    100% {
+        color: #c55c1a;
+    }
+}
+
+@keyframes iconHoverInTwitter {
+    0% {
+        color: #15b0d7;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes iconHoverOutTwitter {
+    0% {
+        color: white;
+    }
+    100% {
+        color: #15b0d7;
+    }
+}
+
+@keyframes iconHoverInLinkedin {
+    0% {
+        color: #063fa4;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes iconHoverOutLinkedin {
+    0% {
+        color: white;
+    }
+    100% {
+        color: #063fa4;
+    }
+}
