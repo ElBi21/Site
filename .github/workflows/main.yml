@@ -1,5 +1,5 @@
 on: push
-name: Deploy on FTP server
+name: Deploy on FTP server 
 jobs:
   web-deploy:
     name: Deploy
