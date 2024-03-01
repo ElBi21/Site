@@ -3,6 +3,12 @@
 
 ---
 
+## → TODO List
+
+ - [ ] Rifare l'intera grafica
+ - [ ] Aggiornare le informazioni
+ - [ ] Adattarle ad ogni dispositivo (almeno PC/Tablet/Smartphone)
+
 ## → Changelogs
 
 - `v0.6`: Versione stabile con `.htaccess` funzionante e nuova pagina `404.html`
