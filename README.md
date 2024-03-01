@@ -1,5 +1,5 @@
-<h1 align="center">Sito Leo</h1>
-<p align="center">Versione attuale: <code>v0.6</code></p>
+<h1 align="center">Sito Personale</h1>
+<p align="center">Versione attuale: <code>v0.6</code> • Available <a href="https://www.leonardobiason.com">here</a></p>
 
 ---
 
