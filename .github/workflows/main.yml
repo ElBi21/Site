@@ -14,5 +14,5 @@ jobs:
         server: ${{ secrets.ftp_server }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        dry-run: true
+        dry-run: false
         server-dir: ${{ secrets.ftp_dir }}
