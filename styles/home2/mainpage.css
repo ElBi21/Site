@@ -1,6 +1,6 @@
 :root {
     --menu_width: 18%;
-    --temp_height: 1300px;
+    --temp_height: 1400px;
 }
 
 html {
@@ -38,4 +38,20 @@ body {
 .text_space {
     margin: 40px 150px 0 150px;
     width: 70vw;
+}
+
+.text_box {
+    margin-top: 50px;
+    align-items: left;
+    display: flex;
+    justify-content: center;
+}
+
+.text_field {
+    padding-right: 20px;
+}
+
+.lateral_line {
+    width: 6px;
+    flex-shrink: 0;
 }
