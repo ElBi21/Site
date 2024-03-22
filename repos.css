@@ -1,0 +1,14 @@
+.repogrid {
+    background-color: #546175;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;   
+}
+
+.repo {
+    background-color: #212435;
+    width: 40%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px black;
+}
