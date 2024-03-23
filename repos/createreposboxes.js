@@ -1,4 +1,14 @@
-import repos from "repos.json"
+//import repos from "./repos.json"
+repos = [
+    {
+        "title": "NoTeX",
+        "link": "https://github.com/ElBi21/NoTeX/",
+        "languages" : {
+            "TeX" : "98,17%",
+            "Python": "1,83%"
+        }
+    }
+]
 
 for (let item in repos) {
     console.log(item.title)
