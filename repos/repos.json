@@ -1,0 +1,12 @@
+{
+    "repos" : [
+        {
+            "title": "NoTeX",
+            "link": "https://github.com/ElBi21/NoTeX/",
+            "languages" : {
+                "TeX" : "98,17%",
+                "Python": "1,83%"
+            }
+        }
+    ]
+}
