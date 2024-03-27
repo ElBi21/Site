@@ -7,6 +7,15 @@
                 "TeX" : "98,17%",
                 "Python": "1,83%"
             }
+        },
+        {
+            "title": "Sito",
+            "link": "https://github.com/ElBi21/Site/",
+            "languages" : {
+                "CSS": "54.14%",
+                "HTML": "42.96%",
+                "JavaScript": "2.90%"
+            }
         }
     ]
 }

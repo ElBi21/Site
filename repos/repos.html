@@ -5,29 +5,42 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Repos</title>
+        <link rel="icon" href="../assets/images/icon.png">
+
+        <!--CSS Style Sheets-->
         <link rel="stylesheet" href="../styles/text_style.css">
         <link rel="stylesheet" href="repos.css">
-        <script type="module" src="createreposboxes.js"></script> 
-        <title>Repos</title>
+        <!--<link rel="script" href="repos.json">-->
+
+        <!--Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
     <body>
+        <script>
+$.getJSON("repos.json", function(json) {
+    let repoGrid = document.getElementsByClassName("repogrid")
+    for (let item of json.repos) {
+        // Create box
+        let repoBox = document.createElement('div');
+        repoBox.classList.add("repo");
+        repoGrid[0].appendChild(repoBox);
+
+        // Add title
+        let repoTitleNode = document.createElement("p");    
+        let boldTitle = document.createElement("b");
+        let repoTitle = document.createTextNode(item.title);
+
+        repoTitleNode.classList.add("repotitle");
+        repoTitleNode.appendChild(boldTitle);
+        boldTitle.appendChild(repoTitle);
+        repoBox.appendChild(repoTitleNode);
+        
+    }
+});
+        </script>
         <div>
             <div class="repogrid">
-                <div class="repo" id="repotest">
-                    <p class="repotext">A</p>
-                </div>
-                <div class="repo">
-                    <p class="repotext">B</p>
-                </div>
-                <div class="repo">
-                    <p class="repotext">C</p>
-                </div>
-                <div class="repo">
-                    <p class="repotext">D</p>
-                </div>
-                <div class="repo">
-                    <p class="repotext">E</p>
-                </div>
             </div>
         </div>
     </body>
