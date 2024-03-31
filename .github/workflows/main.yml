@@ -17,3 +17,8 @@ jobs:
         password: ${{ secrets.ftp_password }}
         dry-run: false
         server-dir: ${{ secrets.ftp_dir }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/.idea/**
+          README.md
