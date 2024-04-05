@@ -21,7 +21,20 @@
     margin: 10px;
 }
 
-.repotitle !important {
+.repotitlebox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.repolinkimage {
+    width: 25px;
+    margin: 0 0 0 10px;
+}
+
+.repotitle {
     color: white;
     font-size: 14px;
 }
