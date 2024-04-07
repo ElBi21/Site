@@ -2,8 +2,8 @@
 @font-face { font-family: "Calibri Light"; src: url("../assets/fonts/Calibri Light.ttf"); }
 @font-face { font-family: "Lato Light"; src: url("../assets/fonts/Lato Light.ttf"); }
 @font-face { font-family: "Lato Regular"; src: url("../assets/fonts/Lato Regular.ttf"); }
-@font-face { font-family: "JBM Regular"; src: url(../assets/fonts/JetBrainsMonoNLNerdFont-Regular.ttf); }
-@font-face { font-family: "JBM SemiBold"; src: url(../assets/fonts/JetBrainsMonoNLNerdFont-SemiBold.ttf); }
+@font-face { font-family: "JBM Regular"; src: url("../assets/fonts/JetBrainsMonoNLNerdFont-Regular.ttf"); }
+@font-face { font-family: "JBM SemiBold"; src: url("../assets/fonts/JetBrainsMonoNLNerdFont-SemiBold.ttf"); }
 
 h1 {
     text-align: center;

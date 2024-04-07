@@ -4,8 +4,8 @@
             "title": "NoTeX",
             "link": "https://github.com/ElBi21/NoTeX/",
             "languages" : {
-                "TeX" : "98,17%",
-                "Python": "1,83%"
+                "TeX" : "98.17%",
+                "Python": "1.83%"
             }
         },
         {
@@ -21,9 +21,8 @@
             "title": "R All Over It",
             "link": "https://github.com/ElBi21/R-All-Over-It/",
             "languages" : {
-                "CSS": "54.14%",
-                "HTML": "42.96%",
-                "JavaScript": "2.90%"
+                "Jupyter Notebook": "96.84%",
+                "R": "3.16%"
             }
         }
     ]
