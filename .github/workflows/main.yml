@@ -1,10 +1,12 @@
-on: push
+on:
+  push:
+    branches:
+      - "main"
 name: Deploy on FTP server 
 jobs:
   web-deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/head/main'
     steps:
     - name: Get latest code
       uses: actions/checkout@v3
