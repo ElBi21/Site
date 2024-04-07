@@ -24,6 +24,14 @@
                 "Jupyter Notebook": "96.84%",
                 "R": "3.16%"
             }
+        },
+        {
+            "title": "RustyJourney",
+            "link": "https://github.com/ElBi21/RustyJourney/",
+            "languages" : {
+                "Rust": "59.97%",
+                "Makefile": "40.05%"
+            }
         }
     ]
 }
