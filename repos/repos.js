@@ -1,9 +1,28 @@
+async function getRepoData(repoName) {
+    let heads = {};
+    // Add headers
+    fetch("repos/secrets.json").then(resp => resp.json()).then(data => {
+        for (head in data["GHQUERYHEADS"]) {
+            heads[head] = data["GHQUERYHEADS"][head];
+            console.log(`${head}: ${data["GHQUERYHEADS"][head]}`)
+        }
+    })
+
+    let repoData = await fetch(`https://api.github.com/repos/ElBi21/${repoName}`);
+    repoData.headers = heads;
+
+    let repoJson = await repoData.json();
+    console.log(repoJson);
+    return repoJson;
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     fetch('repos/repos.json')
         .then(response => response.json())
         .then(data => {
             let repoGrid = document.getElementsByClassName("repogrid")
             for (let item of data.repos) {
+                repoData = getRepoData(item.title)
                 // Create box
                 let repoBox = document.createElement('div');
                 repoBox.classList.add("repo");
@@ -22,9 +41,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Add title
                 let repoTextTitle = document.createElement("p");
-                repoTextTitle.textContent = `${item.title}`;
+                repoTextTitle.textContent = `${item.title.replaceAll("-", " ")}`;
                 repoTextTitle.classList.add("repotitle");
                 repoTitleBox.appendChild(repoTextTitle);
+
+                // Add description
+                let repoDescDiv = document.createElement("div");
+                repoDescDiv.classList.add("repodesc");
+                repoBox.appendChild(repoDescDiv)
+
+                let repoDesc = document.createElement("p");
+                repoDesc.classList.add("repotext");
+                repoData.then(repoObj => {
+                    repoDesc.textContent = `${repoObj.description}`;
+                });
+                repoDescDiv.appendChild(repoDesc)
 
                 // Add languages
                 let repoLangsBox = document.createElement("div");

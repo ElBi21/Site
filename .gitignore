@@ -8,3 +8,6 @@ tsconfig.json
 node_modules/
 bun.lockb
 index.ts
+
+# Ignore the secrets file
+secrets.json

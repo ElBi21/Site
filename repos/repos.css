@@ -43,7 +43,17 @@
 
 .repotext {
     color: white;
+    font-family: "Lato";
+    font-weight: 400;
     font-size: 14px;
+    line-height: 14px;
+    margin: 0 0 0 10px;
+}
+
+.repodesc {
+    height: 55px;
+    width: 100%;
+    margin-top: 0px;
 }
 
 .repolangsbox {
