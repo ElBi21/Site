@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} /([^.]+).html [NC]
+RewriteRule .+ /%1 [L,R=302]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule (.*)/?$ /$1.html [L]
+
+DirectoryIndex home.html
+
+ErrorDocument 404 /404.html

@@ -1,0 +1,10 @@
+# Ignoring JetBrains folder
+.idea/
+
+# Ignoring bun / node modules.
+# The node server is used only for local testing
+package.json
+tsconfig.json
+node_modules/
+bun.lockb
+index.ts

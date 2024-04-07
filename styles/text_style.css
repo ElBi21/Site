@@ -2,6 +2,8 @@
 @font-face { font-family: "Calibri Light"; src: url("../assets/fonts/Calibri Light.ttf"); }
 @font-face { font-family: "Lato Light"; src: url("../assets/fonts/Lato Light.ttf"); }
 @font-face { font-family: "Lato Regular"; src: url("../assets/fonts/Lato Regular.ttf"); }
+@font-face { font-family: "JBM Regular"; src: url("../assets/fonts/JetBrainsMonoNLNerdFont-Regular.ttf"); }
+@font-face { font-family: "JBM SemiBold"; src: url("../assets/fonts/JetBrainsMonoNLNerdFont-SemiBold.ttf"); }
 
 h1 {
     text-align: center;
@@ -11,7 +13,7 @@ h1 {
 
 h3 {
     text-align: left;
-    font-family: "Lato Regular";
+    font-family: "JBM Regular";
     font-size: 35px;
     line-height: 10px;
     margin-bottom: -5px;
@@ -23,4 +25,5 @@ p {
     font-family: "Lato Light";
     font-size: 20px;
     line-height: 27px;
+    margin-left: 25px;
 }
