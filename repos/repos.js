@@ -72,13 +72,6 @@ document.addEventListener("DOMContentLoaded", function () {
                             function changeShadowOut(repoHovered) {
                                 repoHovered.style.transform = "box-shadow: 0px 5px 10px rgb(134, 132, 132);"
                             }
-
-                            repoBox.mouseenter(function() {
-                                $(this).attr("currentColor", $(this).css("background-color"));
-                                $(this).css("background-color", "#f7f7f7")
-                            }).mouseout(function() {
-                                $(this).css("background-color", $(this).attr("currentColor"));
-                            })
                         }
                     })
                 })
