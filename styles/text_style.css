@@ -13,7 +13,8 @@ h1 {
 
 h3 {
     text-align: left;
-    font-family: "JBM Regular";
+    font-family: "JetBrains Mono";
+    font-weight: 400;
     font-size: 35px;
     line-height: 10px;
     margin-bottom: -5px;
