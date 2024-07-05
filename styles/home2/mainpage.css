@@ -29,7 +29,7 @@ body {
 .main_page{
     background-color: #F9F8F4;                 /* TEMP */
     width: calc(100% - var(--menu_width));
-    height: var(--temp_height);               /* TEMP */
+    height: 1900px/*var(--temp_height)*/;               /* TEMP */
     align-items: top;
     display: flex;
     justify-content: center;
