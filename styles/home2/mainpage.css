@@ -1,6 +1,6 @@
 :root {
     --menu_width: 18%;
-    --temp_height: 1900px;
+    --site_height: 1410px;
 }
 
 html {
@@ -29,7 +29,7 @@ body {
 .main_page{
     background-color: #F9F8F4;                 /* TEMP */
     width: calc(100% - var(--menu_width));
-    height: 1900px/*var(--temp_height)*/;               /* TEMP */
+    height: var(--site_height);               /* TEMP */
     align-items: top;
     display: flex;
     justify-content: center;

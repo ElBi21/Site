@@ -5,10 +5,22 @@
 @font-face { font-family: "JBM Regular"; src: url("../assets/fonts/JetBrainsMonoNLNerdFont-Regular.ttf"); }
 @font-face { font-family: "JBM SemiBold"; src: url("../assets/fonts/JetBrainsMonoNLNerdFont-SemiBold.ttf"); }
 
+:root {
+    --font-color: #E2E2E2;
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1 {
-    text-align: center;
-    font-family: "Lato Regular";
-    font-size: 4vmax;
+    text-align: left;
+    font-family: "Abril Fatface", serif;
+    font-size: 50px;
+    margin: -54.2px 0 -20px 25px;
+    color: var(--font-color);
 }
 
 h3 {
@@ -23,8 +35,15 @@ h3 {
 
 p {
     text-align: left;
-    font-family: "Lato Light";
+    font-family: "DM Sans", sans-serif;
+    font-weight: 100;
     font-size: 20px;
     line-height: 27px;
-    margin-left: 25px;
+    margin: 25px;
+    color: var(--font-color);
+}
+
+a {
+    color: #5E86DC;
+    text-decoration: none;
 }

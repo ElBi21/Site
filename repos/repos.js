@@ -12,7 +12,7 @@ async function getRepoData(repoName) {
     repoData.headers = heads;
 
     let repoJson = await repoData.json();
-    console.log(repoJson);
+    // console.log(repoJson);
     return repoJson;
 }
 
