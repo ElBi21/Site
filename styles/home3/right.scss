@@ -19,3 +19,79 @@
     border: 1.2px solid #EFEFEF;
     box-shadow: 0px 0px 10px #181818;
 }
+
+.interests {
+    width: auto;
+    height: fit-content;
+    margin: 25px 20px 20px 20px;
+    /*background: linear-gradient(153deg, rgba(232,234,240,0.3) 0%, rgba(144,151,164,0.3) 100%);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);*/
+    border-radius: 13.89px;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.int_element {
+    width: 23%;
+    height: 120px;
+    background-color: rgba(244, 244, 244, 0.20);
+    margin: 5px;
+    border-radius: 3.89px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15), -2px -2px 5px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.int_icon {
+    color: #ebebeb;
+    margin: 10px 0 20px 0;
+}
+
+.int_text {
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0;
+}
+
+.int_desc {
+    font-size: 14px;
+    line-height: 1.1;
+    text-align: center;
+    margin: 2px 0 0 0;
+}
+
+/*.int_element:hover  {
+    animation-name: int_elem_hover;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes int_elem_hover {
+    0% {
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(255, 255, 255, 0.1);
+    }
+    100% {
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1) inset, -2px -2px 5px rgba(255, 255, 255, 0.1) inset;
+    }
+    }*/
+
+.int_element_2 {
+    width: 47.5%;
+    height: 250px;
+    background-color: rgba(244, 244, 244, 0.20);
+    margin: 5px;
+    border-radius: 3.89px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

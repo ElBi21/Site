@@ -1,0 +1,76 @@
+#coding_title {
+    margin: 5px;
+}
+
+.coding_langs {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+}
+
+.code_lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    margin: 4px;
+}
+
+.code_icon {
+    height: 18px;
+}
+
+.code_proficiency_bar {
+    width: 73%;
+    height: 14px;
+    border-radius: 7px;
+    background-color: rgba(168, 168, 168, 0.5);
+    margin-left: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.code_bar_amount {
+    height: 10px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+#code_1 {
+    width: 1%;
+    background-color: #8f3434;
+}
+
+#code_2 {
+    width: 16.6%;
+    background-color: #f0a136;
+}
+
+#code_3 {
+    width: 33.2%;
+    background-color: #f4f355;
+}
+
+#code_4 {
+    width: 50%;
+    background-color: #cfee31;
+}
+
+#code_5 {
+    width: 66.6%;
+    background-color: #9ee828;
+}
+
+#code_6 {
+    width: 83.4%;
+    background-color: #24cb5c;
+}
+
+#code_7 {
+    width: 100%;
+    background-color: #0aa65e;
+}
