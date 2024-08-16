@@ -11,3 +11,6 @@ index.ts
 
 # Ignore the secrets file
 secrets.json
+
+# macOS
+.DS_Store
