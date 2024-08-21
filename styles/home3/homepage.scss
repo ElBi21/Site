@@ -3,13 +3,29 @@
 @import "codebars.scss";
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-body {
-    /*background: linear-gradient(135deg, rgba(244,244,244,1) 0%, rgba(254,255,234,1) 100%);*/
-    background: radial-gradient(circle at left top, rgba(2,6,45,1) 28%, rgba(146,114,213,1) 100%);
-    /*background-image: url("../../assets/images/home/alt_back.jpg");*/
-    background-size: 1920px;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
+@media screen and (min-width: 0px) {
+    body {
+        /*background: linear-gradient(135deg, rgba(244,244,244,1) 0%, rgba(254,255,234,1) 100%);*/
+        background: radial-gradient(circle at left top, rgba(2,6,45,1) 28%, rgba(146,114,213,1) 100%);
+        /*background-image: url("../../assets/images/home/alt_back.jpg");*/
+        background-size: 1920px;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        /*background: linear-gradient(135deg, rgba(244,244,244,1) 0%, rgba(254,255,234,1) 100%);*/
+        background: radial-gradient(circle at left top, rgba(2,6,45,1) 28%, rgba(146,114,213,1) 100%);
+        /*background-image: url("../../assets/images/home/alt_back.jpg");*/
+        background-size: 1920px;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
 }
