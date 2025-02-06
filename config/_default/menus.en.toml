@@ -1,0 +1,9 @@
+[[main]]
+  name = "Projects"
+  pageRef = "_index"
+  weight = 10
+
+[[main]]
+  name = "Topics"
+  pageRef = "topics"
+  weight = 20
