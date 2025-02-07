@@ -1,3 +1,7 @@
 baseURL = 'https://www.leonardobiason.com/'
 languageCode = 'en'
 title = 'Ao'
+
+[markup]
+  [markup.goldmark]
+    renderer.unsafe = true

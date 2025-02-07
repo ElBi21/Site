@@ -5,3 +5,17 @@ I'm a passionate photographer and traveler, and I try to keep the memories of my
 In the year 2020/2021 I attended to an abroad year in Belgium with AFS.
 
 After returning I became an AFS Volunteer. Thanks to that experience, I'm now able to speak 3 languages: Italian, English and Dutch. I've been a scout (both in Italy and in Belgium) for a total of 10 years.
+
+<div class="skills">
+    <div class="single_skill">
+        Python + TeX + C + CUDA
+    </div>
+    <div class="single_skill">
+    </div>
+    <div class="single_skill">
+    </div>
+    <div class="single_skill">
+    </div>
+    <div class="single_skill">
+    </div>
+</div>

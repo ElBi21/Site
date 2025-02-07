@@ -15,3 +15,6 @@ secrets.json
 # macOS
 .DS_Store
 ._DS_Store
+
+# Hugo
+public
