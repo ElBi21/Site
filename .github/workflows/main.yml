@@ -2,25 +2,64 @@ on:
   push:
     branches:
       - "main"
-name: Deploy on FTP server 
+
+  workflow_dispatch:
+
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+
+defaults:
+  run:
+    shell: bash
+  
+
+name: Build and Deploy on FTP server 
+
 jobs:
-  web-deploy:
-    name: Deploy
+  hugo-compile:
+    name: Compile the Hugo site
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.128.0
     steps:
-    - name: Get latest code
-      uses: actions/checkout@v3
-    
-    - name: Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.ftp_server }}
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
-        dry-run: false
-        server-dir: ${{ secrets.ftp_dir }}
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/.idea/**
-          README.md
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
+      - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+        run: |
+          hugo \
+            --minify"
+
+      - name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.ftp_server }}
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          dry-run: false
+          local-dir: ./public/
+          server-dir: ${{ secrets.ftp_dir }}
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.idea/**
+            README.md
