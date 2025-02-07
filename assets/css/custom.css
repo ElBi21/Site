@@ -1,22 +1,81 @@
 /* Override */
+html {
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
 .prose {
     max-width: 90%;
+    width: 90%;
+    text-align: left;
 }
 
 /* Home */
+.custom-pfp {
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin: 40px 0 40px 0;
+    box-shadow: 0px 0px 15px black;
+    transition-duration: 0.3s;
+}
+
+/*.custom-pfp:hover {
+    transition-duration: 0.3s;
+    height: 210px;
+    width: 210px;
+    box-shadow: 0px 0px 25px black;
+}*/
+
+.custom-links {
+    margin: 15px 0 40px 0 ;
+}
+
+
+/* New stuff */
+
+.home-left {
+    display: flex;
+    text-align: left;
+}
+
+.separator {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(var(--color-neutral-400), 1);
+    margin: 0 0 40px 0;
+}
+
+.separator-left {
+    width: 45%;
+    height: 1px;
+    background-color: rgba(var(--color-neutral-400), 1);
+    margin: 0 0 40px 0;
+}
+
 .skills {
     width: 100%;
-    height: 200px;
+    height: 250px;
     border-radius: 20px;
     padding: 8px 0 8px 0;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .single_skill {
+    transition-duration: 0.5s;
     width: 20%;
-    height: 184px;
+    height: 100%;
     background-color: rgba(var(--color-neutral-700), 1);
     border-radius: 12px;
     margin: 0 4px 0 4px;
+    text-align: center;
+}
+
+/* Pages */
+
+.custom-page-desc {
+    font-weight: 150;
+    margin: 0 0 20px 20px;
 }
