@@ -47,7 +47,8 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
-            --minify"
+            --minify \
+            --baseURL "https://www.leonardobiason.com/""
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
