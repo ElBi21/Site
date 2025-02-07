@@ -49,6 +49,9 @@ jobs:
           hugo \
             --minify \
             --baseURL "https://www.leonardobiason.com/"
+      
+      - name: Copy htaccess
+        run: "cp .htaccess public/.htaccess"
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
