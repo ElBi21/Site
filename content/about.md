@@ -1,6 +1,6 @@
 ---
 title: About me
-description: So, let me better introduce myself
+description: Allow me to introduce myself
 showAuthor: false
 layout: "simple"
 ---
