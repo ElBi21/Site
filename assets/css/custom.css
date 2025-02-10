@@ -20,13 +20,6 @@ html {
     transition-duration: 0.3s;
 }
 
-/*.custom-pfp:hover {
-    transition-duration: 0.3s;
-    height: 210px;
-    width: 210px;
-    box-shadow: 0px 0px 25px black;
-}*/
-
 .custom-links {
     margin: 15px 0 40px 0 ;
 }
@@ -77,23 +70,25 @@ html {
 
 .custom-page-desc {
     font-weight: 150;
-    margin: 0 0 20px 20px;
+    margin: 4px 0 20px 20px;
+    line-height: 18px;
 }
 
 /* Projects */
 
 .projects-list {
     width: 100%;
-    height: 300px;
+    height: 325px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: start;
+    align-items: center;
 }
 
 .project {
     width: 45%;
+    min-width: 300px;
     height: 175px;
     border-radius: 12px;
     display: flex;
@@ -101,14 +96,16 @@ html {
     justify-content: start;
     align-items: start;
     background: rgba(51,65,85,1);
-    transition-duration: 1s;
+    transition-duration: 0.3s;
     padding: 12px;
-    margin: 4px 8px 4px 8px;
+    margin: 0px 8px 16px 8px;
+    color: white;
 }
 
 .project:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-    transition-duration: 0.3s;
+    border-radius: 12px;
+    transition-duration: 0.5s;
 }
 
 .project-title {
@@ -123,4 +120,8 @@ html {
 #proj-ssn:hover {
     transition-duration: 1s;
     background: rgba(85, 167, 205, 0.2);
+}
+
+.proj-link {
+    text-decoration: none;
 }
