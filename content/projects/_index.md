@@ -1,6 +1,6 @@
 ---
 title: Projects
-description: Sometimes I do stuff. Other times I also do stuff
+description: Sometimes I do stuff. Come check them out!
 showAuthor: false
 layout: "simple"
 ---
@@ -8,7 +8,7 @@ layout: "simple"
 Here you will find a list of projects that I maintain or that I built. You can find most of them on GitHub, by just pressing the project!
 
 <div class="projects-list">
-    <button class="project" id="proj-notex" onclick="location.href='https://www.github.com/ElBi21/NoTeX'" type="button">
+    <button class="project" id="proj-notex" onclick="location.href='notex'" type="button">
         <h2 class="project-title">NoTeX</h2>
         <p style="line-height: 18px; text-align: left; text-decoration: none">📜 A custom LaTeX template for taking notes</p>
         <div style="display: flex; flex-direction: row; margin-top: auto;">
