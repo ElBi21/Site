@@ -3,7 +3,7 @@
 
 # Ignoring bun / node modules.
 # The node server is used only for local testing
-package.json
+#package.json
 tsconfig.json
 node_modules/
 bun.lockb
