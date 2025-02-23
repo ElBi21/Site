@@ -1,24 +1,11 @@
 {
-  "name": "site-leonardobiason",
-  "version": "1.0.0",
-  "description": "Site of Leonardo Biason",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i assets/css/custom.css -o static/tailwindcss.css --watch",
+    "build": "npx tailwindcss -i assets/css/custom.css -o static/tailwindcss.css --minify"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ElBi21/Site.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ElBi21/Site/issues"
-  },
-  "homepage": "https://github.com/ElBi21/Site#readme",
+
   "devDependencies": {
+    "@tailwindcss/cli": "^4.0.8",
     "@tailwindcss/typography": "^0.5.16",
     "tailwindcss": "^4.0.8"
   }

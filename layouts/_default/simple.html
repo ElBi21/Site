@@ -1,22 +1,12 @@
 {{ define "main" }}
-  <article style="width: 100%">
-    <header>
-      {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
-        {{ partial "breadcrumbs.html" . }}
-      {{ end }}
-      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        {{ .Title | emojify }}
-      </h1>
-      <h2 class="custom-page-desc">
-        <i>{{ .Description | emojify }}</i>
-      </h2>
-      <div class="separator-left"></div>
-    </header>
-    <section class="prose dark:prose-invert" style="min-width: 100%">
-      {{ .Content | emojify }}
-    </section>
-    <footer class="pt-8">
-      {{ partial "sharing-links.html" . }}
-    </footer>
-  </article>
+  <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+        <div class="content">
+          {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
+          {{ .Content }}
+        </div>
+      </main>
+    </article>
+  </div>
 {{ end }}
