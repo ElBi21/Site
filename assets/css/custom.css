@@ -1,0 +1,158 @@
+@import "tailwindcss";
+@reference "tailwindcss";
+
+@plugin "@tailwindcss/typography";
+@source "hugo_stats.json";
+
+
+/* Override */
+html {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+p, h2 {
+    font-family: "DM Sans";
+}
+
+p {
+    line-height: 22px;
+}
+
+.prose {
+    max-width: 90%;
+    width: 90%;
+    text-align: left;
+}
+
+.decoration-primary-500 {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+/* Home */
+.custom-pfp {
+    border-radius: 100%;
+    height: 190px;
+    width: 190px;
+    margin: 40px 0 40px 0;
+    box-shadow: 0px 0px 15px black;
+    transition-duration: 0.3s;
+    border: 3.5px white solid;
+}
+
+.custom-links {
+    margin: 15px 0 40px 0 ;
+}
+
+
+/* New stuff */
+
+.home-left {
+    display: flex;
+    text-align: left;
+}
+
+.separator {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(var(--color-neutral-400), 1);
+    margin: 0 0 40px 0;
+}
+
+.separator-left {
+    width: 45%;
+    height: 1px;
+    background-color: rgba(var(--color-neutral-400), 1);
+    margin: 0 0 40px 0;
+}
+
+.skills {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    padding: 8px 0 8px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.single_skill {
+    transition-duration: 0.5s;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(var(--color-neutral-700), 1);
+    border-radius: 12px;
+    margin: 0 4px 0 4px;
+    text-align: center;
+}
+
+/* Pages */
+
+.custom-page-desc {
+    font-weight: 150;
+    margin: 4px 0 20px 20px;
+    line-height: 18px;
+}
+
+/* Projects */
+
+.projects-list {
+    width: 100%;
+    height: 325px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    width: 45%;
+    min-width: 300px;
+    height: 175px;
+    padding: 12px;
+    margin: 0px 8px 16px 8px;
+
+    border: 2px white solid;
+    border-radius: 12px;
+    background: rgba(51,65,85,1);
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+    transform: translate(0px, 0px);
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+    transform: translate(-2.5px, -2.5px);
+    box-shadow: 5px 5px 0px white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-title {
+    margin: 0 0 4px 0px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+#proj-notex {
+    background: rgba(205,193,85,0.2);
+}
+
+#proj-ssn {
+    background: rgba(85, 167, 205, 0.2);
+}
+
+#proj-port {
+    background: rgba(208, 107, 107, 0.2);
+}
+
+.proj-link {
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "site-leonardobiason",
+  "version": "1.0.0",
+  "description": "Site of Leonardo Biason",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElBi21/Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ElBi21/Site/issues"
+  },
+  "homepage": "https://github.com/ElBi21/Site#readme",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "tailwindcss": "^4.0.8"
+  }
+}

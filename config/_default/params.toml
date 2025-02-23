@@ -1,0 +1,4 @@
+colorScheme = "ocean"
+
+homepage.layout = "profile"
+footer.showThemeAttribution = false
