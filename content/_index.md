@@ -1,24 +1,14 @@
 ---
 title: Leonardo Biason
-layout: hextra-home
+layout: home
 ---
 
-<div class="hx-mt-6 hx-mb-6">
-{{< hextra/hero-headline >}}
-  Leonardo Biason
-{{< /hextra/hero-headline >}}
-</div>
-
-<div class="hx-mb-12">
-{{< hextra/hero-subtitle >}}
-  the stephen hawkings of bad ideas
-{{< /hextra/hero-subtitle >}}
-</div>
-
-<div class="hx-mt-6"></div>
-
-<div class="flex h-full w-full">
-	<div class="bg-amber-500" style="height: 100px; width: 100px; margin: 10px"></div>
-	<div class="bg-amber-500" style="height: 100px; width: 100px; margin: 10px"></div>
-	<div class="bg-amber-500" style="height: 100px; width: 100px; margin: 10px"></div>
+<div class="m-8 p-4 h-fit flex flex-row">
+	<div class="flex flex-col">
+		<p class="not-prose home_title">Leonardo Biason</p>
+		<p class="not-prose home_trail">Fantasy lives on</p>
+	</div>
+	<div class="flex justify-center align-middle">
+		<div class="home_pfp"></div>
+	</div>
 </div>

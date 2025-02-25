@@ -8,6 +8,31 @@
 .single_skill {
     width: 20%;
     height: 100px;
-    background-color: rgba(var(--color-neutral-700), 1);
-    
+    background-color: rgba(var(--color-neutral-700), 1);   
+}
+
+/*.home_title_block {
+    width: max-content;
+    height: 200px;
+}*/
+
+.home_pfp {
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/pfp.jpg");
+}
+
+.home_title {
+    width: fit-content;
+    height: fit-content;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.home_trail {
+    width: fit-content;
+    margin: 16px 0 0 16px;
+    font-weight: 200;
+    font-size: 24px;
+    font-style: italic;
 }
