@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@reference "tailwindcss";
+@import "home.css";
 
 @plugin "@tailwindcss/typography";
 @source "hugo_stats.json";

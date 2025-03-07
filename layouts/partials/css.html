@@ -1,5 +1,5 @@
 {{ with (templates.Defer (dict "key" "global")) }}
-  {{ with resources.Get "css/main.css" }}
+  {{ with resources.Get "css/custom.css" }}
     {{ $opts := dict
       "minify" hugo.IsProduction
       "inlineImports" true

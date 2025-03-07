@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+
     {{/* Title */}}
     {{ if .IsHome -}}
       <title>{{ .Site.Title | emojify }}</title>
@@ -27,16 +27,20 @@
       integrity="{{ $jsAppearance.Data.Integrity }}"
     ></script>
     {{ $cssScheme := resources.Get (printf "css/schemes/%s.css" (lower .Site.Params.colorScheme | default "congo")) }}
+    
     {{ if not $cssScheme }}
       {{ $cssScheme = resources.Get "css/schemes/congo.css" }}
     {{ end }}
     {{ $assets.Add "css" (slice $cssScheme) }}
-    {{ $cssMain := resources.Get "css/compiled/main.css" }}
+    
+    {{ $cssMain := resources.Get "css/tailwindcss.css" }}
     {{ $assets.Add "css" (slice $cssMain) }}
+    
     {{ $cssCustom := resources.Get "css/custom.css" }}
     {{ if $cssCustom }}
       {{ $assets.Add "css" (slice $cssCustom) }}
     {{ end }}
+
     {{ $bundleCSS := $assets.Get "css" | resources.Concat "css/main.bundle.css" | resources.Minify | resources.Fingerprint $algorithm }}
     <link
       type="text/css"
