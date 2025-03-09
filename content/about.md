@@ -5,7 +5,7 @@ showAuthor: false
 layout: "simple"
 ---
 
-I'm Leonardo, I'm 21 and I'm an **Artificial Intelligence and Computer Science** student at [**Sapienza**](https://www.uniroma1.it/it/) in Rome. During these three years I explored a lot of Computer Science fields, and settles my main interests in the **High Performance Computing** (HPC) and **low level** fields.
+I'm Leonardo, I'm 21 and I'm an **Artificial Intelligence and Computer Science** student at [**Sapienza**](https://www.uniroma1.it/it/) in Rome. During these three years I explored a lot of Computer Science fields, and settled my main interests in the **High Performance Computing** (HPC) and **low level** fields.
 
 I'm a passionate **photographer** and traveler, and I try to keep the memories of my trips within the art of photography.
 
