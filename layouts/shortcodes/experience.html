@@ -1,0 +1,16 @@
+{{ $counter := .Page.Scratch.Get "counter" | default 0 }}
+{{ $counter = add $counter 1 }}
+{{ .Page.Scratch.Set "counter" $counter }}
+<div class="exp_container">
+    <div class="exp_decorator">
+        <div class="exp_dec_point">{{ $counter }}</div>
+        <div class="exp_dec_line" style="height: {{ .Params.height }}"></div>
+    </div>
+    <div class="exp_content">
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <h3 class="exp_title">{{ .Params.title | markdownify }}</h3>
+            <h4 class="exp_date">({{ .Params.date }})</h4>
+        </div>
+        <p>{{ .Inner | markdownify }}</p>
+    </div>
+</div>

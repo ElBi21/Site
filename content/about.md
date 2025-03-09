@@ -13,4 +13,13 @@ In the year 2020/2021 I attended to an abroad year in Belgium with AFS. After re
 
 ## Some experiences
 
-Will be added soon
+
+{{< experience title="AGESCI Scout" date="2011 - 2021">}}
+I have been part of a local scout group, called Roma 112 for 10 years. During the year 2020-2021, I continued my activities as a scout in the _Gits - Scouts en Gidsen Vlaanderen_ group
+{{</ experience >}}
+{{< experience title="AFS Volunteer" date="2022 - 2025">}}
+Once I came back from my AFS abroad year, I became an AFS volunteer in my local chapter of Rome East. During the year 2023-2024 I have been the chapter's local sending coordinator. I am still serving as a volunteer up to this date
+{{</ experience >}}
+{{< experience title="Didactic Tutor for the Computer Science Department " date="Sept 2024 - Jan 2025">}}
+Thanks to a scholarship for collaborating with the university, I won the possibility of becoming a didactic tutor for the courses of Computer Architecture (Unit 1) and Progettazione di Sistemi Digitali. I served for a total of 150 hours 
+{{</ experience >}}

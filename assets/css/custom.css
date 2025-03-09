@@ -155,3 +155,60 @@ p {
 .proj-link {
     text-decoration: none;
 }
+
+/* Experiences */
+
+.exp_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.exp_decorator {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.exp_dec_point {
+    background-color: var(--tw-prose-headings);
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin: 4px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #1E293B;
+    font-weight: 900;
+    font-family: "DM Sans";
+    font-size: larger;
+}
+
+.exp_dec_line {
+    background-color: var(--tw-prose-headings);
+    width: 1px;
+    height: calc(100% - 32px - 4px - 8px);
+    margin: 6px 0 2px 0;
+}
+
+.exp_content {
+    width: 100%;
+}
+
+.exp_title {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.exp_date {
+    margin: 3px 0px 0px 4px;
+    font-weight: 300;
+    font-size: 14px;
+}
