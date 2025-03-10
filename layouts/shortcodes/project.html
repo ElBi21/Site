@@ -1,0 +1,16 @@
+{{ $lang_range := split .Params.langs "," }}
+<button class="project" id="proj-{{ .Params.id }}" onclick="location.href='{{ .Params.id }}'" type="button">
+    <h2 class="project-title">{{ .Params.name }}</h2>
+    <p class="text-neutral-900 dark:text-neutral" style="line-height: 18px; text-align: left; text-decoration: none">{{ .Inner }}</p>
+    <div style="display: flex; flex-direction: row; margin-top: auto;">
+        {{ range $lang_range}}
+        <span class="flex">
+            <span
+                class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+            >
+                {{ . }}
+            </span>
+        </span>
+        {{ end }}
+    </div>
+</button>
