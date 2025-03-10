@@ -1,11 +1,11 @@
 ---
 title: Projects
-description: Sometimes I do stuff. Come check them out!
+description: Sometimes I do stuff. Come check it out!
 showAuthor: false
 layout: "simple"
 ---
 
-Here you will find a list of projects that I maintain or that I built. You can find most of them on GitHub, by just pressing the project!
+Here you will find a list of projects that I maintain or that I built. You can find most of them on GitHub, but you can get more insights about the project itself by just pressing the button below!
 
 <div class="projects-list">
     {{< project id="notex" name="NoTeX" langs="LaTeX">}}

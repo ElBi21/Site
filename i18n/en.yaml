@@ -1,0 +1,8 @@
+error:
+  404_title: "Whoopsie :confused:"
+  404_error: "Error 404"
+  404_description: "It seems that the page you've requested does not exist :("
+
+  418_title: "I'm a teapot 🫖"
+  418_error: "Error 418"
+  418_description: "Why would I be able to process something? I'm a damn teapot >:(<br><br>If you need some coffee, go to a damn coffee shop, alright?"
