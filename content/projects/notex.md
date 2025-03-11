@@ -6,11 +6,18 @@ layout: "project"
 
 {{< katex >}}
 
-<!--<div class="project-info-container">
+<div class="project-info-container">
     <button class="project-gh-link" onclick="location.href='https://github.com/ElBi21/NoTeX'">
-        <img src="/icons/github.svg" width="50%">
+        <img src="/icons/github.svg" width="30%" style="margin-top: 0px;">
+        <p class="project-gh-par">Check the project on GitHub</p>
     </button>
-</div>-->
+    <div class="project-tools-container">
+        <p style="margin: 0 8px 10px 8px; font-weight: 400; font-size: normal;">The tools used in this project</p>
+        <div class="project-tools">
+            {{< proj-tool tool="latex" percent="100" >}}
+        </div>
+    </div>
+</div>
 
 ## What is NoTeX?
 

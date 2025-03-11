@@ -1,0 +1,9 @@
+<div class="project-single-tool">
+  {{ $icon := resources.Get (printf "icons/%s.svg" (.Params.tool)) }}
+  {{ if $icon }}
+    <img src="/icons/{{ .Params.tool }}.svg" class="project-tool-icon">
+  {{ else }}
+    {{ errorf `[CONGO] Shortcode "proj-tool" error in "%s": Resource "%s" not found. Check the path is correct or remove the shortcode.` .Page.Path (printf "icons/%s.svg" ($.Get 0)) }}
+  {{ end }}
+  <p class="project-tool-desc">{{ .Params.percent }}%</p>
+</div>

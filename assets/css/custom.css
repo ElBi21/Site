@@ -160,7 +160,7 @@ p {
 
 .project-info-container {
     background-color: rgba(var(--color-neutral-500), 0.5);
-    width: 100%;
+    width: max-content;
     height: 150px;
     border-radius: 16px;
     padding: 12px;
@@ -176,6 +176,7 @@ p {
     height: 100%;
 
     padding: 8px;
+    margin: 0 6px 0 0;
     border-radius: 8px;
 
     display: flex;
@@ -185,6 +186,69 @@ p {
     
     font-size: small;
     line-height: 16px;
+
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 5px;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.project-gh-link:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 5px inset;
+    background-color: rgba(var(--color-neutral-700), 0.5);
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.project-gh-par {
+    margin: -10px 0 0 0;
+    line-height: normal;
+    font-size: normal;
+}
+
+.project-tools-container{
+    background-color: rgba(var(--color-neutral-500), 0.5);
+    width: max-content;
+    height: 100%;
+
+    padding: 8px;
+    margin: 0 0 0 6px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-tools{
+    width: max-content;
+    height: 100%;
+
+    padding: 8px;
+    margin: 0 0 0 6px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-single-tool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px 0 12px;
+}
+
+.project-tool-icon {
+    height: 38px;
+    margin: 0;
+}
+
+.project-tool-desc {
+    margin: 4px 0 0 0;
+    font-weight: 900;
+    font-size: 18px;
 }
 
 .scroll_gallery {
