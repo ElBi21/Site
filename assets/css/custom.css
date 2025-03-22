@@ -278,6 +278,19 @@ p {
 
 /* Experiences */
 
+.lists {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.experiences, .education {
+    width: 50%;
+    min-width: 500px;
+    padding: 10px;
+}
+
 .exp_container {
     width: 100%;
     height: auto;
@@ -326,10 +339,53 @@ p {
 .exp_title {
     margin-top: 4px;
     margin-bottom: 0;
+    line-height: 24px;
 }
 
 .exp_date {
     margin: 3px 0px 0px 4px;
     font-weight: 300;
     font-size: 14px;
+}
+
+.edu_icon {
+    width: 22px;
+    height: 22px;
+}
+
+.download_icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+}
+
+.edu_grade {
+    font-weight: 350;
+    font-size: 14px;
+    font-family: "DM Sans";
+
+    margin: 0 0 10px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    .edu_icon, .download_icon {
+        filter: invert(1);
+    }
+}
+
+.download_button {
+    height: 32px;
+    border: 2px solid var(--tw-prose-headings);
+    padding: 0 12px 0 12px;
+    background-color: rgba(225, 225, 225, 1);
+    border-radius: 8px;
+    color: rgba(var(--color-neutral-800), var(--tw-bg-opacity,1));
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 13px;
 }

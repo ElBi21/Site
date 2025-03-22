@@ -10,3 +10,7 @@
     [[module.mounts]]
         source = "assets/img"
         target = "static/img"
+
+    [[module.mounts]]
+        source = "assets/pdfs"
+        target = "static/attachments"
