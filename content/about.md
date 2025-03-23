@@ -14,7 +14,7 @@ In the year 2020/2021 I attended to an abroad year in Belgium with AFS. After re
 <div class="lists">
 <div class="education">
 <h2>💡 Education</h2>
-{{< education title="BsC in Applied Computer Science and Artificial Intelligence" date="2022 - 2025" institution="Sapienza University of Rome">}}
+{{< education title="BSc in Applied Computer Science and Artificial Intelligence" date="2022 - 2025" institution="Sapienza University of Rome">}}
 I am currently attending the **3rd year** in the course of **Applied Computer Science and Artificial Intelligence** at Sapienza.
 
 I settled my interests in the **HPC** world, over which I am currently writing my thesis. I had the opportunity during the 3rd year to become a **didactic tutor** for the department
