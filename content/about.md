@@ -13,7 +13,7 @@ In the year 2020/2021 I attended to an abroad year in Belgium with AFS. After re
 
 <div class="lists">
 <div class="education">
-<h2>Education</h2>
+<h2>💡 Education</h2>
 {{< education title="BsC in Applied Computer Science and Artificial Intelligence" date="2022 - 2025" institution="Sapienza University of Rome">}}
 I am currently attending the **3rd year** in the course of **Applied Computer Science and Artificial Intelligence** at Sapienza.
 
@@ -28,7 +28,7 @@ During my 5th year, I served as the **institute's representative**, as well as s
 {{</ education >}}
 </div>
 <div class="experiences">
-<h2>Some experiences</h2>
+<h2>🎯 Some experiences</h2>
 {{< experience title="Didactic Tutor for the Computer Science Department " date="Sept 2024 - Jan 2025">}}
 Thanks to a scholarship for collaborating with the university, I won the possibility of becoming a didactic tutor for the courses of Computer Architecture (Unit 1) and Progettazione di Sistemi Digitali. I served for a total of 150 hours 
 {{</ experience >}}

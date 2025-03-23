@@ -276,20 +276,58 @@ p {
     border-radius: 8px;
 }
 
-/* Experiences */
+/* Experiences and Education */
 
 .lists {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
 .experiences, .education {
-    width: 50%;
-    min-width: 500px;
-    padding: 10px;
+    width: 100%;
 }
+
+.exp_title_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.exp_date {
+    margin: 3px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 900px) {
+    .lists {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .experiences, .education {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .exp_title_cont {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .exp_date {
+        min-width: fit-content;
+        margin: 3px 0px 0px 4px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
+
 
 .exp_container {
     width: 100%;
@@ -340,12 +378,6 @@ p {
     margin-top: 4px;
     margin-bottom: 0;
     line-height: 24px;
-}
-
-.exp_date {
-    margin: 3px 0px 0px 4px;
-    font-weight: 300;
-    font-size: 14px;
 }
 
 .edu_icon {
