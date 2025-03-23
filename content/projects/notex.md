@@ -8,7 +8,7 @@ layout: "project"
 
 <div class="project-info-container">
     <button class="project-gh-link" onclick="location.href='https://github.com/ElBi21/NoTeX'">
-        <img src="/icons/github.svg" width="30%" style="margin-top: 0px;">
+        <img src="/icons/github-white.svg" width="30%" style="margin-top: 0px;">
         <p class="project-gh-par">Check the project on GitHub</p>
     </button>
     <div class="project-tools-container">

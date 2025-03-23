@@ -19,7 +19,8 @@ I am currently attending the **3rd year** in the course of **Applied Computer Sc
 
 I settled my interests in the **HPC** world, over which I am currently writing my thesis. I had the opportunity during the 3rd year to become a **didactic tutor** for the department
 
-<!--Prepared button, won't work until the thesis will be ready :) {{< download title="Read the thesis" download="main.pdf" >}}-->
+<!--Prepared button, won't work until the thesis will be ready :)--> 
+<!--{{< download title="Read the thesis" download="main.pdf" >}}-->
 {{</ education >}}
 {{< education title="High School" date="2017 - 2021" grade="95/100" institution="Liceo Scientifico PioXI" >}}
 I graduated from high school, after following the **scientific curriculum**. During my 4th year, I attended to an **exchange year** with AFS.

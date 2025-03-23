@@ -8,7 +8,12 @@
   pageRef = "projects"
   weight = 20
 
+#[[main]]
+#  name = "Photos"
+#  pageRef = "photos"
+#  weight = 30
+
 [[main]]
   name = "Posts"
   pageRef = "posts"
-  weight = 30
+  weight = 40
