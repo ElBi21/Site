@@ -1,9 +1,17 @@
 {{ $counter := .Page.Scratch.Get "counter" | default 0 }}
-{{ $counter = add $counter 1 }}
-{{ .Page.Scratch.Set "counter" $counter }}
 <div class="exp_container">
     <div class="exp_decorator">
-        <div class="exp_dec_point">{{ $counter }}</div>
+        <div class="exp_dec_point">
+            {{ if eq .Params.type "conference" }}
+                <img src="/icons/edu_exp.svg" class="edu_icon">
+            {{ else if eq .Params.type "edu" }}
+                <img src="/icons/education.svg" class="edu_icon">
+            {{ else }}
+                {{ $counter = add $counter 1 }}
+                {{ .Page.Scratch.Set "counter" $counter }}
+                <p class="exp_counter_single">{{ $counter }}</p>
+            {{ end }}
+        </div>
         <div class="exp_dec_line"></div>
     </div>
     <div class="exp_content">
@@ -11,6 +19,12 @@
             <h3 class="exp_title">{{ .Params.title | markdownify }}</h3>
             <h4 class="exp_date">({{ .Params.date }})</h4>
         </div>
+        <h4 class="edu_grade">
+            {{ with .Params.grade }}
+            Grade: {{ . }} • 
+            {{ else }}
+            
+            {{ end }}{{ .Params.institution }}</h4>
         <p>{{ .Inner | markdownify }}</p>
     </div>
 </div>

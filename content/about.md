@@ -14,28 +14,28 @@ In the year 2020/2021 I attended to an abroad year in Belgium with AFS. After re
 <div class="lists">
 <div class="education">
 <h2>💡 Education</h2>
-{{< education title="BSc in Applied Computer Science and Artificial Intelligence" date="2022 - 2025" institution="Sapienza University of Rome">}}
+{{< experience type="edu" title="BSc in Applied Computer Science and Artificial Intelligence" date="2022 - 2025" institution="Sapienza University of Rome">}}
 I am currently attending the **3rd year** in the course of **Applied Computer Science and Artificial Intelligence** at Sapienza.
 
 I settled my interests in the **HPC** world, over which I am currently writing my thesis. I had the opportunity during the 3rd year to become a **didactic tutor** for the department
 
 <!--Prepared button, won't work until the thesis will be ready :)--> 
 <!--{{< download title="Read the thesis" download="main.pdf" >}}-->
-{{</ education >}}
-{{< education title="High School" date="2017 - 2021" grade="95/100" institution="Liceo Scientifico PioXI" >}}
+{{</ experience >}}
+{{< experience type="edu" title="High School" date="2017 - 2021" grade="95/100" institution="Liceo Scientifico PioXI, Rome" >}}
 I graduated from high school, after following the **scientific curriculum**. During my 4th year, I attended to an **exchange year** with AFS.
 
 During my 5th year, I served as the **institute's representative**, as well as student's representative
-{{</ education >}}
+{{</ experience >}}
 </div>
 <div class="experiences">
 <h2>🎯 Some experiences</h2>
-{{< experience title="Inverted CERN School of Computing" date="April 2025" >}}
-I participated to the inverted CERN School of Computing, exploring topics such as use of ML/RL and parallel coding applied to physics, from guidance of previous CSC attendees
+{{< experience type="conference" institution="CERN, Geneva" title="Inverted CERN School of Computing 2025" date="April 2025" >}}
+I participated to the inverted CERN School of Computing, exploring topics such as the use of ML/RL and parallel coding applied to physics, from guidance of previous CSC attendees
 <!--Prepared button, won't work until the article will be ready :)--> 
 <!--{{< readmore title="Read the article" link="/posts/school-computing" >}}-->
 {{</ experience >}}
-{{< experience title="Didactic Tutor for the Computer Science Department " date="Sept 2024 - Jan 2025">}}
+{{< experience title="Didactic Tutor for the Computer Science Department " date="Sept 2024 - Jan 2025" institution="Sapienza University of Rome" >}}
 Thanks to a scholarship for collaborating with the university, I won the possibility of becoming a didactic tutor for the courses of Computer Architecture (Unit 1) and Progettazione di Sistemi Digitali. I served for a total of 150 hours 
 {{</ experience >}}
 {{< experience title="AFS Volunteer" date="2022 - 2025">}}

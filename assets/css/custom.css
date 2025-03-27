@@ -203,7 +203,7 @@ p {
     font-size: normal;
 }
 
-.project-tools-container{
+.project-tools-container {
     background-color: rgba(var(--color-neutral-500), 0.5);
     width: max-content;
     height: 100%;
@@ -218,7 +218,7 @@ p {
     align-items: center;
 }
 
-.project-tools{
+.project-tools {
     width: max-content;
     height: 100%;
 
@@ -339,19 +339,22 @@ p {
 }
 
 .exp_decorator {
-    width: 50px;
+    width: max-content;
+    min-width: 32px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    margin-right: 8px;
 }
 
 .exp_dec_point {
     background-color: var(--tw-prose-headings);
-    width: 32px;
+    width: max-content;
+    min-width: 32px;
     height: 32px;
     border-radius: 16px;
-    margin: 4px 0 0 0;
+    margin: 4px auto 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -383,6 +386,15 @@ p {
 .edu_icon {
     width: 22px;
     height: 22px;
+    margin: 0 5px 0 5px;
+}
+
+.exp_counter {
+    margin: 0 2px 0 8px;
+}
+
+.exp_counter_single {
+    margin: 0;
 }
 
 .download_icon {
