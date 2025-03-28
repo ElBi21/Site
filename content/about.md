@@ -30,7 +30,7 @@ During my 5th year, I served as the **institute's representative**, as well as s
 </div>
 <div class="experiences">
 <h2>🎯 Some experiences</h2>
-{{< experience type="conference" institution="CERN, Geneva" title="Inverted CERN School of Computing 2025" date="April 2025" >}}
+{{< experience type="conference" institution="CERN, Geneva" title="Inverted CERN School of Computing 2025" date="March 2025" >}}
 I participated to the inverted CERN School of Computing, exploring topics such as the use of ML/RL and parallel coding applied to physics, from guidance of previous CSC attendees
 <!--Prepared button, won't work until the article will be ready :)--> 
 <!--{{< readmore title="Read the article" link="/posts/school-computing" >}}-->
