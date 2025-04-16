@@ -34,6 +34,7 @@ During my 5th year, I served as the **institute's representative**, as well as s
 I participated to the inverted CERN School of Computing, exploring topics such as the use of ML/RL and parallel coding applied to physics, from guidance of previous CSC attendees
 <!--Prepared button, won't work until the article will be ready :)--> 
 <!--{{< readmore title="Read the article" link="/posts/school-computing" >}}-->
+{{< readmore title="Certificate" link="/attachments/certificates/iCSC-certificate.pdf" >}}
 {{</ experience >}}
 {{< experience title="Didactic Tutor for the Computer Science Department " date="Sept 2024 - Jan 2025" institution="Sapienza University of Rome" >}}
 Thanks to a scholarship for collaborating with the university, I won the possibility of becoming a didactic tutor for the courses of Computer Architecture (Unit 1) and Progettazione di Sistemi Digitali. I served for a total of 150 hours 
