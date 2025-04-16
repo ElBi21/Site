@@ -3,24 +3,11 @@ on:
     branches:
       - "main"
 
-  workflow_dispatch:
-
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-
-defaults:
-  run:
-    shell: bash
-  
-
 name: Build and Deploy on FTP server 
 
 jobs:
-  hugo-compile:
-    name: Compile the Hugo site
+  compile-and-load:
+    name: Compile the Hugo site and push it to the FTP server
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.128.0
