@@ -14,3 +14,7 @@
     [[module.mounts]]
         source = "assets/pdfs"
         target = "static/attachments"
+
+    [[module.mounts]]
+        source = "static"
+        target = "static"
