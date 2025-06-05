@@ -1,11 +1,6 @@
-<h1 align="center">Sito Personale</h1>
-<p align="center">Versione attuale: <code>v0.7</code> • Available <a href="https://www.leonardobiason.com">here</a></p>
+<h1 align="center">leonardobiason.com</h1>
+<p align="center">Current version: <code>v1.0</code> • Available <a href="https://www.leonardobiason.com">here</a></p>
 
 ---
 
-## → Changelogs
-
-- `v0.7`: Versione con Hugo
-- `v0.6`: Versione stabile con `.htaccess` funzionante e nuova pagina `404.html`
-- `v0.5`: Codice riformattato. Pulito `home.html` e creato classi nuove per avere meno stili possibili nel file `HTML`
-- `v0.0` → `v0.4`: Prime versioni del sito
+Not much to say, this is the repo for my site. It's built with [Hugo](https://gohugo.io/), with the [Congo theme](https://github.com/jpanther/congo). If you have any doubts with this repo, refer to the [original documentation](https://jpanther.github.io/congo/docs/) for better understanding my mess ❤️
