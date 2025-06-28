@@ -301,6 +301,11 @@ p {
     font-size: 14px;
 }
 
+.events {
+    width: 100%;
+    padding: 10px
+}
+
 @media screen and (min-width: 900px) {
     .lists {
         width: 100%;
