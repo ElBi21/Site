@@ -6,5 +6,6 @@ image = "img/pfp.jpg"
 headline = "_Fantasy lives on_"
 links = [
   { linkedin = "https://www.linkedin.com/in/leonardobiason/" },
-  { github = "https://github.com/ElBi21" }
+  { github = "https://github.com/ElBi21" },
+  { orcid = "https://orcid.org/0009-0007-3424-8847" }
 ]

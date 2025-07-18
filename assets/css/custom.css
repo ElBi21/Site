@@ -113,7 +113,7 @@ p {
     padding: 12px;
     margin: 0px 8px 16px 8px;
 
-    border: 2px white solid;
+    border: 2px rgba(var(--color-neutral-900), 1) solid;
     border-radius: 12px;
     background: rgba(51,65,85,1);
     color: white;
@@ -124,13 +124,13 @@ p {
     align-items: start;
     
     transform: translate(0px, 0px);
-    box-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0px rgba(var(--color-neutral-900), 1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project:hover {
     transform: translate(-2.5px, -2.5px);
-    box-shadow: 5px 5px 0px white;
+    box-shadow: 5px 5px 0px rgba(var(--color-neutral-900), 1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -406,6 +406,7 @@ p {
     width: 14px;
     height: 14px;
     margin-left: 8px;
+    filter: invert(1);
 }
 
 .edu_grade {
@@ -414,12 +415,6 @@ p {
     font-family: "DM Sans";
 
     margin: 0 0 10px 0;
-}
-
-@media (prefers-color-scheme: dark) {
-    .edu_icon, .download_icon {
-        filter: invert(1);
-    }
 }
 
 .download_button {
@@ -437,4 +432,65 @@ p {
 
     font-weight: 600;
     font-size: 13px;
+}
+
+.pages_buttons_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page_button {
+    padding: 8px 15px 8px 15px;
+    border-radius: 8px;
+    border: 2.5px rgba(var(--color-neutral-800), 1) solid;
+    margin: 6px 8px 6px 8px;
+}
+
+#about_page:hover {
+    background-color: rgba(133, 37, 49, 0.6);
+}
+
+#project_page:hover {
+    background-color: rgba(42, 84, 153, 0.6);
+}
+
+#posts_page:hover {
+    background-color: rgba(160, 136, 41, 0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+    .edu_icon {
+        filter: invert(1);
+    }
+
+    .page_button {
+        border: 2.5px rgba(var(--color-neutral), 1) solid;
+    }
+
+    .project {
+        border: 2px rgba(var(--color-neutral), 1) solid;
+        box-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+    }
+
+    .project:hover {
+        box-shadow: 5px 5px 0px rgba(255, 255, 255, 1);
+    }
+
+    #about_page:hover {
+        transition: background-color 0.2s ease;
+        background-color: rgba(133, 37, 49, 0.4);
+    }
+
+    #project_page:hover {
+        transition: background-color 0.2s ease;
+        background-color: rgba(42, 84, 153, 0.4);
+    }
+
+    #posts_page:hover {
+        transition: background-color 0.2s ease;
+        background-color: rgba(160, 136, 41, 0.4);
+    }
 }
