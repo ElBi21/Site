@@ -14,7 +14,7 @@ In the year 2020/2021 I attended to an abroad year in Belgium with AFS. After re
 <div class="lists">
 <div class="education">
 <h2>💡 Education</h2>
-{{< experience type="edu" title="BSc in Applied Computer Science and Artificial Intelligence" date="2022 - 2025" institution="Sapienza University of Rome">}}
+{{< experience type="edu" title="BSc in Applied Computer Science and Artificial Intelligence" date="2022 - Current" institution="Sapienza University of Rome">}}
 I am currently attending the **3rd year** in the course of **Applied Computer Science and Artificial Intelligence** at Sapienza.
 
 I settled my interests in the **HPC** world, over which I am currently writing my thesis. I had the opportunity during the 3rd year to become a **didactic tutor** for the department
@@ -31,13 +31,13 @@ During my 5th year, I served as the **institute's representative**, as well as s
 <div class="experiences">
 <h2>🎯 Some experiences</h2>
 {{< experience title="Didactic Tutor for the Computer Science Department " date="Sept 2024 - Jan 2025" institution="Sapienza University of Rome" >}}
-Thanks to a scholarship for collaborating with the university, I won the possibility of becoming a didactic tutor for the courses of Computer Architecture (Unit 1) and Progettazione di Sistemi Digitali. I served for a total of 150 hours 
+Thanks to a **scholarship** for collaborating with the university, I won the possibility of becoming a **didactic tutor** for the courses of **Computer Architecture** (Unit 1) and **Progettazione di Sistemi Digitali**. I served for a total of 150 hours 
 {{</ experience >}}
-{{< experience title="AFS Volunteer" date="2022 - 2025">}}
-Once I came back from my AFS abroad year, I became an AFS volunteer in my local chapter of Rome East. During the year 2023-2024 I have been the chapter's local sending coordinator. I am still serving as a volunteer up to this date
+{{< experience title="AFS Volunteer" institution="Intercultura" date="2022 - Current">}}
+Once I came back from my AFS abroad year, I became an **AFS volunteer** in my local chapter of Rome East. During the years 2023-2025 I have been the chapter's local **sending coordinator**. I am still serving as a volunteer up to this date
 {{</ experience >}}
 {{< experience title="AGESCI Scout" date="2011 - 2021">}}
-I have been part of a local scout group, called Roma 112 for 10 years. During the year 2020-2021, I continued my activities as a scout in the _Gits - Scouts en Gidsen Vlaanderen_ group
+I have been part of a local **scout group**, called Roma 112, for 10 years. During the year 2020-2021, I continued my activities as a scout in the _Gits - Scouts en Gidsen Vlaanderen_ group
 {{</ experience >}}
 </div>
 </div>
@@ -45,12 +45,12 @@ I have been part of a local scout group, called Roma 112 for 10 years. During th
 <div class="events">
 <h2>🌁 Events to which I participated</h2>
 {{< experience type="conference" institution="FNHW, Brugg" title="PASC25" date="June 2025" >}}
-I attended to the PASC25 (Platform for Advanced SuperComputing 2025) conference as a student volunteer, exploring topics such as numerical precision, dataflow architectures and quantum computing
+I attended to the **PASC25** (Platform for Advanced SuperComputing 2025) conference as a **student volunteer**, exploring topics such as numerical precision, dataflow architectures and quantum computing
 <!--Prepared button, won't work until the article will be ready :)--> 
 <!--{{< readmore title="Read the article" link="/posts/pasc25" >}}-->
 {{</ experience >}}
 {{< experience type="conference" institution="CERN, Geneva" title="Inverted CERN School of Computing 2025" date="March 2025" >}}
-I participated to the inverted CERN School of Computing, exploring topics such as the use of ML/RL and parallel coding applied to physics, from guidance of previous CSC attendees
+I participated to the **inverted CERN School of Computing**, exploring topics such as the use of ML/RL and parallel coding applied to physics, from guidance of previous CSC attendees
 <!--Prepared button, won't work until the article will be ready :)--> 
 <!--{{< readmore title="Read the article" link="/posts/school-computing" >}}-->
 {{< readmore title="Certificate" link="/attachments/certificates/iCSC-certificate.pdf" >}}
