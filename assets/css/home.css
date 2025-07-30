@@ -1,12 +1,105 @@
+/* Home */
+.custom-pfp {
+    border-radius: 100%;
+    height: 190px;
+    width: 190px;
+    margin: 40px 0 40px 0;
+    box-shadow: 0px 0px 15px black;
+    transition-duration: 0.3s;
+    border: 3.5px white solid;
+}
+
+.custom-links {
+    margin: 15px 0 40px 0 ;
+}
+
+.home-left {
+    display: flex;
+    text-align: left;
+}
+
+.separator {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(var(--color-neutral-400), 0);
+    margin: 0 0 -30px 0;
+}
+
+.separator-left {
+    width: 45%;
+    height: 1px;
+    background-color: rgba(var(--color-neutral-400), 1);
+    margin: 0 0 40px 0;
+}
+
 .skills {
     width: 100%;
-    height: 200px;
-    background-color: rgba(var(--color-neutral-600), 1);
-    border-radius: 12px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 8px 0 8px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .single_skill {
+    transition-duration: 0.5s;
     width: 20%;
-    height: 100px;
+    height: 100%;
     background-color: rgba(var(--color-neutral-700), 1);
+    border-radius: 12px;
+    margin: 0 4px 0 4px;
+    text-align: center;
+}
+
+.pages_buttons_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page_button {
+    padding: 8px 15px 8px 15px;
+    border-radius: 8px;
+    border: 2.5px rgba(var(--color-neutral-800), 1) solid;
+    margin: 6px 8px 6px 8px;
+}
+
+#about_page:hover {
+    background-color: rgba(133, 37, 49, 0.6);
+}
+
+#project_page:hover {
+    background-color: rgba(42, 84, 153, 0.6);
+}
+
+#posts_page:hover {
+    background-color: rgba(160, 136, 41, 0.6);
+}
+
+.home_and_badges {
+    display: flex;
+    flex-direction: column;
+}
+
+.badges {
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation_badge {
+    width: min-content;
+    height: 32px;
+    margin: 12px;
+    padding: 4px;
+
+    border-radius: 8px;
+    color: var(--color-neutral);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,4 +1,5 @@
 {{ $align := .align | default "center" }}
+<div class="home_and_badges">
 <section
   class="not-prose {{ if eq $align "start" }}
     items-start
@@ -29,6 +30,11 @@
     {{ partialCached "author-links.html" . }}
   </div>
 </section>
+<!-- <div class="badges">
+  <div class="presentation_badge"></div>
+  <div class="presentation_badge"></div>
+</div> -->
+</div>
 <div class="separator"></div>
 <div class="pages_buttons_list">
   <button class="page_button" id="about_page" onclick="location.href='about'">🔮 Read more <b>about me</b></button>

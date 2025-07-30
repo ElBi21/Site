@@ -16,5 +16,9 @@
         target = "static/attachments"
 
     [[module.mounts]]
+        source = "assets/photos"
+        target = "static/photos"
+
+    [[module.mounts]]
         source = "static"
         target = "static"

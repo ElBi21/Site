@@ -1,0 +1,7 @@
+{{ $back_col := .Params.color_dark }}
+
+{{/* Implement two colors depending on theme */}}
+
+<div class="presentation_badge" style="background-color: {{ .Params.color }};">
+    {{ .Inner }}
+</div>

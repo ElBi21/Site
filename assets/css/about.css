@@ -1,0 +1,127 @@
+.lists {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.experiences, .education {
+    width: 100%;
+}
+
+.exp_title_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.exp_date {
+    margin: 3px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.events {
+    width: 100%;
+    padding: 10px
+}
+
+.exp_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.exp_decorator {
+    width: max-content;
+    min-width: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.exp_dec_point {
+    background-color: var(--tw-prose-headings);
+    width: max-content;
+    min-width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin: 4px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--tw-prose-pre-bg);
+    font-weight: 900;
+    font-family: "DM Sans";
+    font-size: larger;
+    text-align: center;
+}
+
+.exp_dec_line {
+    background-color: var(--tw-prose-headings);
+    width: 1px;
+    height: calc(100% - 32px - 4px - 8px);
+    margin: 6px 0 2px 0;
+}
+
+.exp_content {
+    width: 100%;
+}
+
+.exp_title {
+    margin-top: 4px;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+.edu_icon {
+    width: 22px;
+    height: 22px;
+    margin: 0 5px 0 5px;
+}
+
+.exp_counter {
+    margin: 0 2px 0 8px;
+}
+
+.exp_counter_single {
+    margin: 0;
+}
+
+.download_icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+    filter: invert(1);
+}
+
+.edu_grade {
+    font-weight: 350;
+    font-size: 14px;
+    font-family: "DM Sans";
+
+    margin: 0 0 10px 0;
+}
+
+.download_button {
+    height: 32px;
+    border: 2px solid var(--tw-prose-headings);
+    padding: 0 12px 0 12px;
+    background-color: rgba(225, 225, 225, 1);
+    border-radius: 8px;
+    color: rgba(var(--color-neutral-800), var(--tw-bg-opacity,1));
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 13px;
+}

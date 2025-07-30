@@ -1,0 +1,65 @@
+@media screen and (min-width: 900px) {
+    .lists {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .experiences, .education {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .exp_title_cont {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .exp_date {
+        min-width: fit-content;
+        margin: 3px 0px 0px 4px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .separator {
+        background-color: rgba(var(--color-neutral-400), 1);
+        margin: 0 0 40px 0;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .edu_icon, .brainmade {
+        filter: invert(1);
+    }
+
+    .page_button {
+        border: 2.5px rgba(var(--color-neutral), 1) solid;
+    }
+
+    .project {
+        border: 2px rgba(var(--color-neutral), 1) solid;
+        box-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+    }
+
+    .project:hover {
+        box-shadow: 5px 5px 0px rgba(255, 255, 255, 1);
+    }
+
+    #about_page:hover {
+        transition: background-color 0.2s ease;
+        background-color: rgba(133, 37, 49, 0.4);
+    }
+
+    #project_page:hover {
+        transition: background-color 0.2s ease;
+        background-color: rgba(42, 84, 153, 0.4);
+    }
+
+    #posts_page:hover {
+        transition: background-color 0.2s ease;
+        background-color: rgba(160, 136, 41, 0.4);
+    }
+}

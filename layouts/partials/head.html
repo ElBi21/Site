@@ -43,6 +43,22 @@
         {{ $assets.Add "css" (slice $cssCustom) }}
     {{ end }}
 
+    {{ $cssHome := resources.Get "css/home.css" }}
+    {{ $assets.Add "css" (slice $cssHome) }}
+
+    {{ $cssAbout := resources.Get "css/about.css" }}
+    {{ $assets.Add "css" (slice $cssAbout) }}
+
+    {{ $cssProjects := resources.Get "css/projects.css" }}
+    {{ $assets.Add "css" (slice $cssProjects) }}
+
+    {{ $cssPhotos := resources.Get "css/photos.css" }}
+    {{ $assets.Add "css" (slice $cssPhotos) }}
+
+    {{ $cssAdaptive := resources.Get "css/media_adapt.css" }}
+    {{ $assets.Add "css" (slice $cssAdaptive) }}
+    
+
     {{ $bundleCSS := $assets.Get "css" | resources.Concat "css/main.bundle.css" | resources.Minify | resources.Fingerprint $algorithm }}
     <link
         type="text/css"
