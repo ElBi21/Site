@@ -5,20 +5,19 @@
       {{ .Content | emojify }}
     </section>
 
-    {{ $photo_folder := resources.Get "/photos/photo001.JPG" }}
+    {{ $photo_json := resources.Get "/photos/photos.json" }}
     <div class="all_photos">
-        <div class="display_photo" id="photo_vertical">
-            <img class="display_photo_content" src="{{ $photo_folder }}">
-            <div class="display_photo_bottom">
-                <div class="display_photo_info">Francesca's graduation</div>
-            </div>
-        </div>
-
-        <div class="display_photo" id="photo_landscape">
-            <img class="display_photo_content" src="/photos/photo002.jpeg">
-            <div class="display_photo_bottom">
-                <div class="display_photo_info">Placeholder</div>
-            </div>
-        </div>
+    {{ with resources.Get $photo_json }}
+        {{ with . | transform.Unmarshal }}
+            {{ range $key, $value := . }}
+                <div class="display_photo" id="photo_{{ $value.alignment }}">
+                    <img class="display_photo_content" src="/photos/{{ $value.photo }}">
+                    <div class="display_photo_bottom">
+                        <div class="display_photo_info">{{ $value.description }}</div>
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+    {{ end }}
     </div>
 {{ end }}

@@ -1,0 +1,47 @@
+[
+    {
+        "photo": "photo001.JPG",
+        "alignment": "vertical",
+        "description": "👤 Francesca"
+    },
+    {
+        "photo": "photo002.jpeg",
+        "alignment": "square",
+        "description": "👤 Helia"
+    },
+    {
+        "photo": "photo003.jpeg",
+        "alignment": "landscape",
+        "description": "📍 CERN, Geneve"
+    },
+    {
+        "photo": "photo004.jpeg",
+        "alignment": "landscape",
+        "description": "📍 NYC"
+    },
+    {
+        "photo": "photo005.jpeg",
+        "alignment": "square",
+        "description": "👤 Fernando"
+    },
+    {
+        "photo": "photo008.jpeg",
+        "alignment": "vertical",
+        "description": "📍 Berlin"
+    },
+    {
+        "photo": "photo006.jpeg",
+        "alignment": "square",
+        "description": "📍 NYC"
+    },
+    {
+        "photo": "photo007.jpeg",
+        "alignment": "landscape",
+        "description": "📍 Prague"
+    },
+    {
+        "photo": "photo009.jpeg",
+        "alignment": "vertical",
+        "description": "📍 Wien"
+    }
+]
