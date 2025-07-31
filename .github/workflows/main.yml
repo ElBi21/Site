@@ -10,7 +10,7 @@ jobs:
     name: Compile the Hugo site and push it to the FTP server
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      HUGO_VERSION: 0.145.0
     steps:
       - name: Install Hugo CLI
         run: |
