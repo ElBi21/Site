@@ -6,6 +6,8 @@
                 <img src="/icons/edu_exp.svg" class="edu_icon">
             {{ else if eq .Params.type "edu" }}
                 <img src="/icons/education.svg" class="edu_icon">
+            {{ else if eq .Params.type "competition" }}
+                <img src="/icons/competition.svg" class="edu_icon">
             {{ else }}
                 {{ $counter = add $counter 1 }}
                 {{ .Page.Scratch.Set "counter" $counter }}
