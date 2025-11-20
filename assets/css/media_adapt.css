@@ -28,6 +28,18 @@
         background-color: rgba(var(--color-neutral-400), 1);
         margin: 0 0 40px 0;
     }
+
+    .home-main-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3em;
+    }
+
+    .custom-links {
+        margin: 15px 0 15px 0;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
