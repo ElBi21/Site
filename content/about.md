@@ -15,7 +15,7 @@ In the year 2020/2021 I attended to an abroad year in Belgium with AFS. After re
 <div class="education">
 <h2>💡 Education</h2>
 {{< experience type="edu" title="MSc in High Performance Computing Engineering" date="2026 - Current" institution="Politecnico di Milano">}}
-I am currently attending the High Performance Computing Engineering MSc course at Politecnico di Milano (PoliMi)
+I am currently attending the **High Performance Computing Engineering** Master of Science course at Politecnico di Milano (PoliMi)
 {{</ experience >}}
 {{< experience type="edu" title="BSc in Applied Computer Science and Artificial Intelligence" date="2022 - 2026" grade="105/110" institution="Sapienza University of Rome">}}
 I attended the Bachelor of Science course in **Applied Computer Science and Artificial Intelligence** at Sapienza.
