@@ -47,13 +47,13 @@ I have been part of a local **scout group**, called Roma 112, for 10 years. Duri
 
 <div class="events">
 <h2>🌁 Events to which I participated</h2>
-{{< experience type="competition" institution="ISC SCC 26 @ Hamburg" title="ISC SCC 26" date="June 2026" >}}
-The [**PlumJuice**](https://plum-juice-project.github.io/plum-io/) HPC Competitive team will compete again, in presence, at the ISC Student Cluster Competition
+{{< experience type="conference" institution="University of Bern, Bern, Switzerland" title="PASC26" date="June-July 2026" >}}
+I attended (again) to the **PASC26** conference as a **student volunteer**
 {{</ experience >}}
 {{< experience type="competition" institution="SC25 @ St. Louis, remotely" title="IndySCC 25" date="November 2025" >}}
 I've participated to the IndySCC25 competition, in the [**PlumJuice**](https://plum-juice-project.github.io/plum-io/) HPC Competitive team, **ranking in the top 9**. In the competition we had to use popular applications in the HPC world, such as ECE, SST, HPL and ACTS
 {{</ experience >}}
-{{< experience type="conference" institution="FNHW, Brugg" title="PASC25" date="June 2025" >}}
+{{< experience type="conference" institution="FNHW, Brugg, Switzerland" title="PASC25" date="June 2025" >}}
 I attended to the **PASC25** (Platform for Advanced SuperComputing 2025) conference as a **student volunteer**, exploring topics such as numerical precision, dataflow architectures and quantum computing
 <!--Prepared button, won't work until the article will be ready :)--> 
 <!--{{< readmore title="Read the article" link="/posts/pasc25" >}}-->

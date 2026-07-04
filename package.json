@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "dev": "npx tailwindcss -i assets/css/custom.css -o static/tailwindcss.css --watch",
-    "build": "npx tailwindcss -i assets/css/custom.css -o assets/css/tailwindcss.css --minify"
+    "twdev": "npx tailwindcss -i assets/css/custom.css -o static/tailwindcss.css --watch",
+    "twbuild": "npx tailwindcss -i assets/css/custom.css -o assets/css/tailwindcss.css --minify",
+    "dev": "hugo server"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.8",
