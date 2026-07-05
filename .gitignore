@@ -55,3 +55,11 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+
+# Nuxt
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
