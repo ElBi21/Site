@@ -1,0 +1,19 @@
+.content {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 2em 8em;
+
+	color: var(--main-foreground);
+}
+
+@media (max-width: 900px) {
+	.content {
+		padding: 2em 3em;
+	}
+}
+
+@media (max-width: 600px) {
+	.content {
+		gap: 1em;
+	}
+}

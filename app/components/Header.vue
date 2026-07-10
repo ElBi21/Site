@@ -1,12 +1,23 @@
+<script setup>
+const router = useRouter()
+const { nav } = useAppConfig()
+
+const pages = router.getRoutes()
+	.filter(route => nav[route.path] !== undefined)
+	.sort((a, b) => nav[a.path] - nav[b.path])
+	.map(route => ({
+		path: route.path,
+		label: route.path === '/' ? 'Home' : route.path.split('/').pop().replace(/^\w/, c => c.toUpperCase())
+	}))
+</script>
+
 <template>
   <header>
   	<div class="header-container">
   		<div class="header-title">Leonardo Biason</div>
   		<div class="header-items">
   			<ul>
-    			<li><a href="/">Home</a></li>
-    			<li><a href="/about">About</a></li>
-    			<li><a href="/contact">Contact</a></li>
+    			<li v-for="page in pages" :key="page.path"><NuxtLink :to="page.path">{{ page.label }}</NuxtLink></li>
 	    	</ul>
 	    </div>
   	</div>
@@ -28,6 +39,7 @@
 .header-title {
 	font-weight: 800;
 	text-transform: uppercase;
+	color: var(--main-foreground);
 
 	display: flex;
 	flex-direction: row;
@@ -51,8 +63,21 @@
 }
 
 .header-items a {
-	font-weight: 500;
+	font-weight: 300;
 	text-decoration: none;
-	color: black;
+	color: var(--main-foreground);
+}
+
+@media (max-width: 900px) {
+	.header-container {
+		padding: 1em auto;
+	}
+}
+
+@media (max-width: 650px) {
+	.header-container {
+		flex-direction: column;
+		gap: 1em;
+	}
 }
 </style>

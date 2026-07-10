@@ -1,65 +1,20 @@
-# Ignoring bun / node modules.
-# The node server is used only for local testing
-#package.json
-tsconfig.json
-node_modules/
-bun.lockb
-index.ts
-
-# Ignore the secrets file
-secrets.json
-
-# macOS
-.DS_Store
-._DS_Store
-
-# Hugo
-public
-resources
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-coverage
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-*.tsbuildinfo
-
-.eslintcache
-
-# Cypress
-/cypress/videos/
-/cypress/screenshots/
-
-# Vitest
-__screenshots__/
-
-# Vite
-*.timestamp-*-*.mjs
-
-# Nuxt
+# Nuxt dev/build outputs
 .output
 .data
 .nuxt
 .nitro
 .cache
 dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+.vscode
