@@ -47,7 +47,7 @@ const pages = router.getRoutes()
 
 	display: flex;
 	flex-direction: row;
-	justify-content: start;
+	justify-content: space-between;
 	align-items: center;
 
 	gap: 2em;

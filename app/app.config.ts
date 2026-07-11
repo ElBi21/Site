@@ -3,6 +3,6 @@ export default defineAppConfig({
 		'/': 1,
 		'/about': 2,
 		'/projects': 3,
-		'/contact': 4,
+		'/contacts': 4,
 	}
 })

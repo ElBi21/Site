@@ -1,7 +1,9 @@
 <template>
 	<div class="hero-container">
 		<p class="hero-title">Leonardo<br>Biason</p>
-		<NuxtImg src="/pfp.jpg" class="hero-image"></NuxtImg>
+		<div class="hero-image-container pattern-dots-sm gray-400">
+			<NuxtImg src="/pfp.jpg" class="hero-image"></NuxtImg>
+		</div>
 	</div>
 </template>
 
@@ -18,9 +20,21 @@
 }
 
 .hero-image {
+	width: 100%;
+	height: 100%;
+	border-radius: 90px;
+
+	transform: translate(12px, 12px);
+}
+
+.hero-image-container {
 	width: 180px;
 	height: 180px;
 	border-radius: 90px;
+
+	transform: translate(0, -6px);
+
+	z-index: -1;
 }
 
 .hero-title {

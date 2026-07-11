@@ -2,7 +2,7 @@
 
 
 :root {
-	--main-background: #303042;
+	--main-background: #24243B;
 	--main-link-foreground: #2D5A8A;
 	--main-foreground: #fff;
 }
@@ -21,10 +21,10 @@ header, footer {
 	padding: 0;
 
 	display: flex;
-	position: sticky;
 }
 
 header {
+	position: sticky;
   	top: 0;
 	font-size: 1em;
 
@@ -37,11 +37,11 @@ footer {
 	flex-direction: column;
 	justify-content: start;
 	align-items: start;
-
-	bottom: 0;
 }
 
 body {
+	width: 100%;
+	height: 100%;
 	margin: 0;
 	background-color: var(--main-background);
 }

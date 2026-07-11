@@ -1,21 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-	devtools: { enabled: true },
+    devtools: { enabled: true },
 
-	css: [
-		'~/assets/css/main.css',
-	],
+    css: [
+        '~/assets/css/main.css',
+    ],
 
-	modules: [
-		// Content not needed for now, will enable when dealing with blog
+    modules: [// Content not needed for now, will enable when dealing with blog
     // '@nuxt/content',
-    '@nuxt/eslint',
-    '@nuxt/image',
-    '@nuxt/ui'
-	],
+    '@nuxt/eslint', '@nuxt/image', '@nuxt/ui', '@nuxt/icon'],
 
-	vite: {
+    vite: {
     optimizeDeps: {
       include: [
         '@vue/devtools-core',
