@@ -5,7 +5,7 @@ showAuthor: false
 layout: "simple"
 ---
 
-I'm Leonardo, I'm 22 and I'm a **High Performance Computing Engineering** student at [**Politecnico di Milano**](https://www.polimi.it/) in Milan. Before, I studied in the Applied Computer Science and Artificial Intelligence course (ACSAI) @ Sapienza, in Rome. My main interests belong to the **GPU programming**, **network structures** and **low level** fields.
+I'm Leonardo, I'm 22 and I'm a **High Performance Computing Engineering** student at [**Politecnico di Milano**](https://www.polimi.it/) in Milan. Before, I studied in the Applied Computer Science and Artificial Intelligence course (ACSAI) @ Sapienza, in Rome. My main interests belong to the **novel hardware accelerators**, **scientific computing**, **network structures** and **low level** fields.
 
 I'm a passionate **photographer** and traveler, and I try to keep the memories of my trips within the art of photography.
 
@@ -47,14 +47,17 @@ I have been part of a local **scout group**, called Roma 112, for 10 years. Duri
 
 <div class="events">
 <h2>🌁 Events to which I participated</h2>
+{{< experience type="conference" institution="McCormick Place, Chicago" title="SuperComputing 26" date="November 2026" >}}
+I attended the **SuperComputing 26** conference as a **student attendee** and as advisor of the [**PlumJuice**](https://plum-juice-project.github.io/plum-io/) HPC Competitive team, which competed in the SCC Connect 26 competition
+{{</ experience >}}
 {{< experience type="conference" institution="University of Bern, Bern, Switzerland" title="PASC26" date="June-July 2026" >}}
-I attended (again) to the **PASC26** conference as a **student volunteer**
+I attended (again) the **PASC26** conference as a **student volunteer**
 {{</ experience >}}
 {{< experience type="competition" institution="SC25 @ St. Louis, remotely" title="IndySCC 25" date="November 2025" >}}
 I've participated to the IndySCC25 competition, in the [**PlumJuice**](https://plum-juice-project.github.io/plum-io/) HPC Competitive team, **ranking in the top 9**. In the competition we had to use popular applications in the HPC world, such as ECE, SST, HPL and ACTS
 {{</ experience >}}
 {{< experience type="conference" institution="FNHW, Brugg, Switzerland" title="PASC25" date="June 2025" >}}
-I attended to the **PASC25** (Platform for Advanced SuperComputing 2025) conference as a **student volunteer**, exploring topics such as numerical precision, dataflow architectures and quantum computing
+I attended the **PASC25** (Platform for Advanced SuperComputing 2025) conference as a **student volunteer**, exploring topics such as numerical precision, dataflow architectures and quantum computing
 <!--Prepared button, won't work until the article will be ready :)--> 
 <!--{{< readmore title="Read the article" link="/posts/pasc25" >}}-->
 {{</ experience >}}

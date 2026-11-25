@@ -19,3 +19,9 @@ secrets.json
 # Hugo
 public
 resources
+
+# Temp
+.data
+.nuxt
+.output
+dist
